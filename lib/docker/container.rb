@@ -110,6 +110,4 @@ class Docker::Container
     "/containers/#{self.id}/#{resource}"
   end
 
-  private :path_for
-  private_class_method :new
 end
